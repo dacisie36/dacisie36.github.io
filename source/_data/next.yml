@@ -1315,6 +1315,8 @@ live2d:
     position: left
     width: 150
     height: 300
+    hOffset: 20
+    vOffset: 30
   mobile:
     show: false
   react:
