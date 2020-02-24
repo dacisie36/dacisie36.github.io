@@ -1315,11 +1315,11 @@ live2d:
     position: left
     width: 150
     height: 300
-    hOffset: -20
-    vOffset: -90
+    hOffset: 20
+    vOffset: 90
   mobile:
     show: false
   react:
     opacity: 1.0
   dialog:
-    hitokoto: true 
+    hitokoto: true
