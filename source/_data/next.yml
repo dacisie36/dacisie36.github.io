@@ -464,7 +464,7 @@ tag_icon: false
 
 # Wechat Subscriber
 wechat_subscriber:
-  enable: false
+  enable: true
   qcode: /images/config/wechat_subscriber.bmp
   description: 欢迎您扫一扫上面的微信公众号，订阅我的博客！
 
@@ -472,7 +472,7 @@ wechat_subscriber:
 reward_settings:
   # If true, reward would be displayed in every article by default.
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
-  enable: false
+  enable: true
   animation: true
   comment: 点击赞赏!
 
@@ -1310,13 +1310,13 @@ live2d:
     # use: wanko # 博客根目录/live2d_models/ 下的目录名
     # use: ./wives/wanko # 相对于博客根目录的路径
     use: https://cdn.jsdelivr.net/npm/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json # 你的自定义 url
-    scale: 1.5
+    scale: 1.2
   display:
     position: left
     width: 150
     height: 300
-    hOffset: 20
-    vOffset: 30
+    hOffset: -20
+    vOffset: -30
   mobile:
     show: false
   react:
