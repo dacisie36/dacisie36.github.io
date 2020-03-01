@@ -465,7 +465,7 @@ tag_icon: false
 # Wechat Subscriber
 wechat_subscriber:
   enable: true
-  qcode: /images/config/wechat_subscriber.bmp
+  qcode: /images/config/wechat_subscriber.jpg
   description: 欢迎您扫一扫上面的微信，添加我为好友！
 
 # Reward (Donate)
