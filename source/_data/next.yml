@@ -713,7 +713,7 @@ calendar:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: walfrid
   count: true
   lazyload: false
