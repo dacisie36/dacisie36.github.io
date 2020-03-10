@@ -1170,11 +1170,11 @@ vendors:
   velocity:
   velocity_ui:
 
-  # Internal version: 4.7.0
+  # Internal version: 5.8.1
   # See: https://fontawesome.com
   # Example:
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
-  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css
   fontawesome:
 
   # Internal version: 2.10.4
