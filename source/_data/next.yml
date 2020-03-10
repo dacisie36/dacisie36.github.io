@@ -306,10 +306,10 @@ site_state: true
 # Value after `||` delimiter is the name of FontAwesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/dacisie36 || github
-  #E-Mail: mailto:928683294@qq.com || envelope
+  #E-Mail: mailto:yourname@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
-  #Twitter: https://twitter.com/dacisie_36 || twitter
+  #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -474,7 +474,7 @@ reward_settings:
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
   enable: true
   animation: true
-  comment: 坚持原创分享，您的支持将鼓励我继续创作！!
+  comment: 点击赞赏!
 
 reward:
   wechatpay: /images/config/wechatpay.jpg
@@ -714,7 +714,7 @@ calendar:
 # Disqus
 disqus:
   enable: false
-  shortname: walfrid
+  shortname:
   count: true
   lazyload: false
 
