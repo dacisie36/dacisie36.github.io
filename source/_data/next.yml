@@ -8,7 +8,7 @@
 
 # Site
 title: 北海茶茗
-subtitle: 
+subtitle: 经验分享丨生活阅读记录
 description: 你寻它像寻梦一样，而你一找到他，就成了它的俘虏。
 keywords: 英日俄三语丨景观设计,UI丨阅读狂热丨python,机器学习
 author: "幷阿原sama"
@@ -136,7 +136,7 @@ sitemap:
 override: false
 
 # Console reminder if new version released.
-reminder: true
+reminder: false
 
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
@@ -250,10 +250,10 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || home
-  about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
+  about: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -711,7 +711,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active: 
+  active: livere
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -773,7 +773,7 @@ valine:
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: # <your_uid>
+livere_uid: MTAyMC80OTA5Mi8yNTU4Nw
 
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
