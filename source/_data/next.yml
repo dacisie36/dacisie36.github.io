@@ -1183,11 +1183,11 @@ live2d:
     # use: wanko # 博客根目录/live2d_models/ 下的目录名
     # use: ./wives/wanko # 相对于博客根目录的路径
     use: https://cdn.jsdelivr.net/npm/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json # 你的自定义 url
-    scale: 1.2
+    scale: 0.9
   display:
     position: left
     width: 150
-    height: 300
+    height: 150
     hOffset: 20
     vOffset: 60
   mobile:
