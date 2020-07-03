@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/config/favicon-32x32-next.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/config/favicon-16x16-next.jpg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Consolas:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"dacisie36.github.io","root":"/","scheme":"Mist","version":"7.7.2","exturl":false,"sidebar":{"position":"right","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":true,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="译自2019年Patrick Mooney的Planting Design: Connecting People and Place。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="植物景观设计丨理论术语翻译及重整理">
+<meta property="og:url" content="http://dacisie36.github.io/posts/Plantdesign-Rearrangingterminology.html">
+<meta property="og:site_name" content="北海茶茗">
+<meta property="og:description" content="译自2019年Patrick Mooney的Planting Design: Connecting People and Place。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-7ab924ca72c5187fd40cd62a6d70a3dc_b.png">
+<meta property="article:published_time" content="2020-05-17T06:21:00.000Z">
+<meta property="article:modified_time" content="2020-07-03T10:23:38.912Z">
+<meta property="article:author" content="幷阿原sama">
+<meta property="article:tag" content="翻译">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic1.zhimg.com/v2-7ab924ca72c5187fd40cd62a6d70a3dc_b.png">
+
+<link rel="canonical" href="http://dacisie36.github.io/posts/Plantdesign-Rearrangingterminology.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true
+  };
+</script>
+
+  <title>植物景观设计丨理论术语翻译及重整理 | 北海茶茗</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/rss.xml" title="北海茶茗" type="application/rss+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">北海茶茗</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <h1 class="site-subtitle" itemprop="description">经验分享丨生活阅读记录</h1>
+      
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">6</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">8</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">22</span></a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/dacisie36" class="github-corner" title="我的Github" aria-label="我的Github" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://dacisie36.github.io/posts/Plantdesign-Rearrangingterminology.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/config/avatar.jpg">
+      <meta itemprop="name" content="幷阿原sama">
+      <meta itemprop="description" content="你寻它像寻梦一样，而你一找到他，就成了它的俘虏。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="北海茶茗">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          植物景观设计丨理论术语翻译及重整理<a href="https://github.com/dacisie36/dacisie36.github.io/blob/source/source/_posts/_posts/posts/%E6%A4%8D%E7%89%A9%E6%99%AF%E8%A7%82%E8%AE%BE%E8%AE%A1-%E7%90%86%E8%AE%BA%E6%9C%AF%E8%AF%AD%E7%BF%BB%E8%AF%91%E5%8F%8A%E9%87%8D%E6%95%B4%E7%90%86.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pencil"></i></a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-05-17 14:21:00" itemprop="dateCreated datePublished" datetime="2020-05-17T14:21:00+08:00">2020-05-17</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%A4%8D%E7%89%A9%E6%99%AF%E8%A7%82%E8%AE%BE%E8%AE%A1/" itemprop="url" rel="index"><span itemprop="name">植物景观设计</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>9.4k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>19 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>译自2019年Patrick Mooney的<em>Planting Design: Connecting People and Place。</em> <a id="more"></a></p>
+<img data-src="https://pic1.zhimg.com/v2-7ab924ca72c5187fd40cd62a6d70a3dc_b.png" alt="img" style="zoom: 50%;" />
+
+<p><u>2019年11月20日</u>出版</p>
+<p>作者Patrick Mooney是英属哥伦比亚大学的教授，风景园林师，主要研究恢复性景观、种植设计和支持生物多样性的多功能城市景观领域。我筛选翻译了其中国内植物景观设计课本少见的理论概念及其术语解释，并按照理想花园模式、园艺基础和景观设计原则三类进行了重新整理。</p>
+<p><strong>转载请注明。</strong></p>
+<hr>
+<h4 id="一、理想的花园要满足的条件、概念"><a href="#一、理想的花园要满足的条件、概念" class="headerlink" title="一、理想的花园要满足的条件、概念"></a>一、理想的花园要满足的条件、概念</h4><p><strong>能供性</strong>：人类可能从环境中获得的任何利益；</p>
+<p><strong>生物爱恋</strong>Biophilia：爱德华·威尔逊在1984年的同名著作中提出了人类对与自然环境联系的深刻需求的命题。他将其定义为 “关注生命和生命过程的先天倾向”，或者说是 “探索生命并与生命建立联系的倾向”（Wilson，1984年，第4页）。</p>
+<p><strong>认知地图</strong>：一个人对自己所处环境的某一部分布局的心理形象（Darken and Peterson，2002）。它是在探索行为中形成的，并支持进一步的探索和参与。</p>
+<p><strong>连贯性</strong>：Stephen和Rachel Kaplan的偏好矩阵中的四个组成部分之一。它包括任何能让观者在心理上将二维视图组织成若干连贯的区域的东西。一个连贯的场景只有几个明显的区域，重复的主题和纹理，以及有限的对比纹理。</p>
+<p><strong>复杂性</strong>：Stephen和Rachel Kaplan的偏好矩阵中的四个组成部分之一。它指的是景物或场景内的视觉错综复杂或视觉丰富性的多样性。</p>
+<p><strong>好奇心驱动模型</strong>：其假设人类寻找新知识是为了消除不确定性和不知道所带来的焦虑。</p>
+<p><strong>好奇心模型</strong>：模型是对现实世界的任何表示。在心理学领域，好奇心模型被用来解释是什么促使人们去探索认知领域或现实世界的某个领域。</p>
+<p><strong>设计的景观</strong>：任何为人类目的而改造过的景观。</p>
+<p><strong>景观中的探索</strong>：是为了寻求功能供给，是我们参与其中的表现。</p>
+<p><strong>危害</strong>：Appleton的瞭望-庇护理论的一个组成部分；任何对人的安全的真实或想象的威胁。</p>
+<p><strong>猎人-采集者</strong>：游牧社会的成员，通过狩猎或觅食获得食物。</p>
+<p><strong>信息处理模型</strong>：在环境心理学家Stephen和Rachel Kaplan提出的这个模型中，人类被理解为 “寻求知识的生物”，他们对了解和参与环境有深刻的需求。卡普兰夫妇确定了景观配置的四种特质—连贯性、复杂性、可辨识性和神秘性—这有助于或理解和探索。据预测，景观中任何一个要素的存在，都能增加人们对该景观的偏好。</p>
+<p><strong>参与性</strong>：心灵处理环境的状态。</p>
+<p><strong>可辨识度</strong>：卡普兰斯偏好矩阵中的四个组成部分之一。可辨识度的提高是指景观中使其令人难忘和与众不同的方面，如界定的子区域或清晰的地标。</p>
+<p><strong>神秘性</strong>：景观的质量，告诉用户如果深入到景观中去，会发现更多的信息。它是Stephen和Rachel Kaplan的偏好矩阵中的四个组成部分之一。</p>
+<p><strong>自然性</strong>：这个词在这里指的是 “具有较高的自然成分”，所以自然场景或环境不一定是荒野，而是指自然成分高的景观或地方。</p>
+<p><strong>自然环境</strong>或<strong>地景</strong>：本术语不应理解为指未被人为破坏的地貌，也不应理解为荒野的地貌。在本书中，该词指的是自然成分占主导地位的景观。对于发达国家的人来说，研究表明，自然景观包括荒野，但也包括农业景观、城市公园和高尔夫球场等（Ulrich，1993）。</p>
+<p><strong>最佳唤起模型</strong>或<strong>寻求快乐模型</strong>：一种好奇心模型，将人类理解为寻求刺激的生物，他们通过精神上或情感上的刺激来抵消无聊的感觉。</p>
+<p><strong>感知</strong>：接收和解释感官刺激的过程。人类对景观的感知包括快速、无意识地理解场景或景观的内容，并评估该景观中行动的可能性（Hadavi等，2015）。</p>
+<p><strong>瞭望</strong>：当一个人可以将无遮挡的视野延伸到景观中时，就会出现。它是阿普尔顿的瞭望-庇护理论的一个组成部分。</p>
+<p><strong>瞭望-庇护理论</strong>：英国地理学家杰伊-阿普尔顿提出的一种美学理论。他在1974年出版的《景观的经验》一书中假设，一个能给人以看得见而看不见的景观能给人以安全感，使人获得放松的感觉，并伴随着愉悦的感觉。</p>
+<p><strong>庇护感</strong>：当景观提供了一个真实的或想象中的躲避机会时，就会出现这种情况。它是阿普尔顿的瞭望-庇护理论的一个组成部分。</p>
+<p><strong>浪漫主义哲学</strong>或<strong>浪漫主义</strong>：十八世纪开始于欧洲的一种哲学和艺术运动。它强调感性高于理性和理智，重视人与自然的接触。</p>
+<p><strong>认知</strong>：指的是人对周围环境的理解，知道自己在空间中的位置，并在环境中找到自己的方向的需要。任何能使人更容易理解环境、绘制环境图和总结环境的东西都是能增强认知。</p>
+<p><strong>注意力恢复理论</strong>（ART）：由环境心理学家雷切尔和斯蒂芬-卡普兰提出的一种理论。它提出，长期的精神需求使我们的精神注意力的引导能力被消耗殆尽。导致了定向的注意力疲劳，从而导致认知能力下降和易怒。而接触康复环境可以引发迷恋，使定向注意机制得到休息，从而导致情绪和认知功能的恢复。</p>
+<p><strong>远离感</strong>：使人体验到一个别样地方的特质，不同于其日常环境之外的特质。它是环境心理学家Stephen和Rachel Kaplan所提出的康复环境的四种品质之一。</p>
+<p><strong>认知地图</strong>：一个人对自己所处环境的某一部分布局的心理图象（Darken和Peterson，2002）。它是在探索行为中形成的，并支持进一步的探索和参与。</p>
+<p><strong>相容性</strong>：衡量环境对用户意图的支持程度。</p>
+<p><strong>和谐景观</strong>：能支持个人希望做的事情，而不需要付出任何不必要的努力或挫折的景观。</p>
+<p><strong>指向性注意</strong>：与<strong>有意注意</strong>同义。用来形容有意识地集中思想的注意力。它要求压制内、外在的精神干扰。</p>
+<p><strong>区域</strong>：指具有明显的视觉属性的区域。具有明显的视觉特性，使其与周围环境相区别的区域。它们是凯文·林奇（Kevin Lynch，1960）确定的认知地图的组成部分之一。</p>
+<p><strong>持续时间</strong>：指事物发生的时间长度。增加在康复环境中的时间长度，会增加康复效果。</p>
+<p><strong>边缘</strong>：环境中的连续性的断裂，发生在两个区域相遇的地方。它们是认知地图的必要组成部分（Lynch, 1960）。</p>
+<p><strong>延伸性</strong>：由环境心理学家Stephen和Rachel Kaplan确定的康复景观的一种品质。表现出 “广度 “特质的景观有很多值得我们去看的东西，可以让我们的头脑长时间地占据着。</p>
+<p><strong>频度</strong>：衡量事物重复出现的频率。增加与自然环境的接触频率，可增加恢复效果。</p>
+<p><strong>绿度</strong>：衡量一个特定区域内植被的数量。研究表明，居住在绿化程度较高的社区的人比居住在绿化程度较低的社区的人的心理和身体更健康。</p>
+<p><strong>无意识的注意</strong>：自发地、不费吹灰之力地对环境、运动和自然环境中的意外变化等事物给予的心理注意。</p>
+<p><strong>地标</strong>：是指外部环境中令人难忘的元素。外部环境中的元素，因为它们的物理特征使其与周围的环境相区别，所以令人难忘。它们是环境中的第一个被记忆的成分，用来形成认知地图（Lynch，1960）。</p>
+<p><strong>节点</strong>：因其强度或审美特征而令人难忘的地方。它们出现在路径的交汇处或地标处，是认知地图的五要素之一（Lynch，1960）。</p>
+<p><strong>图案</strong>：任何重复出现的关系。视觉图案是由视觉元素的重复产生的。人类有一种识别模式的偏好。在景观中寻找模式，会给人一种秩序感，让人感到愉悦。</p>
+<p><strong>康复性</strong>：是指在接触康复性环境后，人的身体、心理和社会功能得到改善的状态。</p>
+<p><strong>康复性环境</strong>：促进从精神疲劳中恢复，恢复情绪和认知功能，减少压力的环境。它们具有远离性、延伸性、相容性和吸引力四个特点。</p>
+<p><strong>路线</strong>：景观中两点之间既定的运动方式或轨迹。路线是认知地图的五大要素之一。具有明确的视觉特征、具有连续性并连接重要目的地的路线更容易让人记忆深刻（Lynch，1960）。</p>
+<p><strong>压力恢复理论</strong>（SRT）：由Roger Ulrich提出的一种理论。研究人员证明，置身于自然环境中会导致压力降低，如心率、血压和压力激素水平的降低等。</p>
+<p><strong>过渡区</strong>：发生在景观的视觉特征发生变化的地方，或两个不同的子区域交汇的地方。它们的目的是减轻景观的变化，使人们对变化的体验不会显得突兀或不和谐。</p>
+<p><strong>寻路性</strong>：指的是人类对三维环境的导航需求。它是人类的基本需求，是和谐景观的一个组成部分。</p>
+<h4 id="二、植物种植理论（园艺）"><a href="#二、植物种植理论（园艺）" class="headerlink" title="二、植物种植理论（园艺）"></a>二、植物种植理论（园艺）</h4><p><strong>生物群系</strong>：科学家公认的最大的植物和动物群落。它是由降水和温度决定的，可能覆盖数千平方英里/公里。</p>
+<p><strong>碳氮比</strong>（C/N比）：土壤中有机碳（C）与土壤中总氮（N）的重量之比。它的意义重大，因为它影响土壤中氮的供给量。</p>
+<p><strong>阳离子交换能力</strong>（CEC）：衡量土壤中能吸收的正电荷离子的总数。它是可用的植物养分的指标（Brady和Weil，2010）。</p>
+<p><strong>人工景观</strong>：任何经过空间上或功能上的改变以实现人类利益的景观（Musacchio, 2009）。</p>
+<p><strong>生态恢复</strong>：协助恢复已被破坏或退化的生态系统的过程（SER, 2004）。</p>
+<p><strong>环境梯度</strong>：地貌中的非生物（即物理性而非生物性）因素随着空间或时间的推移而逐渐变化。海拔高度、温度、土壤深度、土壤深度、海洋邻近性和相互作用等因素会产生环境梯度的变化，如土壤水分制度、小气候和土壤氮含量。</p>
+<p><strong>田间容量</strong>：土壤在彻底饱和并允许自由排泄后，土壤中剩余的水分。</p>
+<p><strong>径流</strong>（interflow）：流经土壤剖面，被植物利用或返回地表但不成为地下水的雨水径流。</p>
+<p><strong>景观</strong>：景观这个词有很多合理的含义。景观是 “人们所感知的区域，其特征是自然和/或人类因素的作用和相互作用的结果”（《欧洲景观公约》，2000年），也是具有共同特征的土地区域。这里指的是具有特定外观或特征的土地区域。它的大小可能从一个区域到一个小花园都不尽相同，也可能是由人类行为设计的或基本上没有被改变的。</p>
+<p><strong>宏量植物营养素</strong>：大量使用的植物营养素。主要的宏量养分是氮、磷和钾。</p>
+<p><strong>微量植物营养素</strong>：植物生长所必需的植物营养素，但在土壤中的浓度较小，植物使用的量也比宏量营养素少。</p>
+<p><strong>本土植物</strong>：是指在某一特定地点自然出现的地方特有的植物。也就是说，它们不是被引进的。<strong>母质</strong>：地质材料，土壤由其发育而来。</p>
+<p><strong>泥炭</strong>：湿地中发育的部分分解的植物物质，尤其是泥炭藓。泥炭土完全是有机质，不是由矿物母质衍生出来的。</p>
+<p><strong>永久性枯萎点</strong>：当太阳下的植物被移至阴暗潮湿的环境中时，其枯萎，无法恢复时的土壤中的含水量。</p>
+<p><strong>pH值</strong>：氢电位，即氢气势。它是衡量土壤的酸碱度的指标，用pH值来衡量，pH值范围为1～14，pH值为7时呈中性。</p>
+<p><strong>植物集群</strong>：指具有确定的物种组成，在统一的生境条件下生长的植物群落。它是较大植物群落的一个子集（Barnes et al.，1997）。</p>
+<p><strong>植物的耐受性</strong>：衡量植物在特定的气候条件下的生存能力。</p>
+<p><strong>植物耐寒区</strong>：气候条件统一的区域划分。通过将植物的耐受性与植物耐受区相匹配，可大大降低气候造成的植物死亡率。</p>
+<p><strong>土壤剖面</strong>：通过土壤的剖面图，可以显示其所有的土壤质层。</p>
+<p><strong>土壤质地</strong>：土壤颗粒的大小。沙质土壤是最大的土壤颗粒，沙质土壤被定义为粗质土壤，而主要由硅质和粘土等较细的土壤颗粒组成的土壤被认为是细质土壤。</p>
+<p><strong>表层追肥</strong>：在草坪或种植床上加一层土壤或堆肥的做法。</p>
+<p><strong>Acequia</strong>：一种灌溉沟渠，将现有的溪流导流。Acequia在八世纪时被摩尔人引入西班牙，西班牙殖民者将其带到德克萨斯州的半干旱地区，那里的农业依赖于使用Acequia（Handbook of Texas Online, 2010）。</p>
+<p><strong>含水层</strong>：地下多孔岩（如石灰岩和砂岩）或渗透性材料（如未凝固的砂和砾石）的地下层，在其空隙中储存水。在许多地方，含水层是饮用水的来源，要继续使用含水层，就需要用新的流入量来替代从含水层中抽取的水。</p>
+<p><strong>Arroyo</strong>：间歇性的小溪流，只有在降雨量大的时候才会充满。</p>
+<p><strong>生物多样性</strong>：biological diversity一词的缩略语。它指的是来自所有来源的生物体之间的变异性，包括陆地、海洋和其他水生生态系统及其所属的生态复合体；这包括物种内、物种间和生态系统的多样性（《生物多样性公约》，2004年）。最简单、最直观的生物多样性衡量标准是特定区域内的物种数量。因此，我们可以考虑不同尺度的生物多样性，如全球生物多样性或地点一级的生物多样性。生物多样性不是一种生态系统服务，但它构成了支持人类生活和福祉的生态系统服务的基础（千年生态系统评估，2005年）。</p>
+<p><strong>生物需氧量（BOD）</strong>：是指微生物分解水中有机废弃物时对氧气的利用程度。大量有机物、硝酸盐和磷酸盐的存在以及水温的升高会增加生物需氧量，从而减少供鱼类使用的氧气量。</p>
+<p><strong>生物量</strong>：单位景观面积内活体有机物的总重量（通常以kg/m2/year为单位）；也指生态系统或植物群落中有机物的总重量。</p>
+<p><strong>生物生产力</strong>：衡量所产生的生物量。它是一种生态系统服务。</p>
+<p><strong>生物水渠</strong>：人工制造的地表雨水输送通道，用于处理雨水径流。</p>
+<p><strong>生态基础设施</strong>：任何经过规划和管理的自然土地和工作景观网络，以保护生态系统功能和提供生态系统服务（Benedict 和 McMahon，2006；Eisenman，2013）。</p>
+<p><strong>生态恢复</strong>：协助恢复已被破坏或退化的生态系统的过程（SER, 2004）。</p>
+<p><strong>生态系统服务</strong>：”自然生态系统以及构成这些系统的物种维持和实现人类生活的条件和过程。它们维持生物多样性和生态系统产品的生产………..（并且）是实际的生命支持功能，如清洁、循环利用和更新，它们还赋予了许多无形的美学和文化利益”（Daily, 1997, 第 3 页）。</p>
+<p><strong>环境梯度</strong>：景观中的非生物因素—即物理性的，而非生物性的—随着空间或时间的推移而逐渐变化。海拔高度、温度、土壤深度、土壤深度、海洋邻近性和海洋间的相互作用等因素会产生环境梯度的变化，如土壤湿度、小气候和土壤氮含量。</p>
+<p><strong>绿色屋顶</strong>或<strong>生态屋顶</strong>：人造屋面结构之上的植被屋顶。</p>
+<p><strong>区域种</strong>：这些植物包括适应特定地区生长条件的本地和非本地植物。</p>
+<p><strong>种群/生境模型</strong>：我们对影响特定物种分布和丰度的环境因素的理解的陈述（Morrison等，2012）。</p>
+<p><strong>雨洪径流</strong>：来自降水的水，没有渗入地下，仅仅流过景观。在城市地区，如果不加以处理，它将会携带污染物。</p>
+<p><strong>城市热岛</strong>：用于描述城市地区比周围的农村地区更热的一个术语。将土地表面从植被、湿润和通透的土地表面改变为不透水、干燥和未植被的土地表面，会增加热岛效应。</p>
+<p><strong>分水岭</strong>：排入一个单一的排水口或排水网的土地区域。</p>
+<h4 id="三、景观设计理论（空间、视觉）"><a href="#三、景观设计理论（空间、视觉）" class="headerlink" title="三、景观设计理论（空间、视觉）"></a>三、景观设计理论（空间、视觉）</h4><p><strong>Bosque树阵</strong>：以直角相交的方式种植的树木，间距均匀，成行相交的树林。以这种方式使用，灌木丛的树木定义了空间的水平面和垂直范围（Arnold, 1980）。</p>
+<p><strong>廊道</strong>：线状的地块，如长长长的常年边界或高压输电走廊。</p>
+<p><strong>立体空间</strong>：立体空间。非强烈封闭的空间，空间中的物体（包括植物）建立了空间体验。</p>
+<p><strong>可防御空间</strong>：通过场地规划和设计来促进当地人的使用和监视，进而抑制犯罪活动的区域。</p>
+<p><strong>genius loci</strong>：在当代环境设计中，genius loci指的是 “场所精神”，指的是特定场所或地点的独特氛围和场所感。</p>
+<p><strong>层次感</strong>：一种组织设计元素的结构化方式，使其容易被感知。在景观设计中，层次感可以创造出重要的层次，如主要和次要的路径、焦点和空间，或者让选定的颜色和形式主导景观。它的使用使人们能够理解，以便于人们对景观进行探索和体验。</p>
+<p><strong>人与人的尺度空间</strong>：空间的大小和比例使人感到舒适的空间。</p>
+<p><strong>亲密-尺度空间</strong>：比人的尺度空间要小一些。可以支持静心、冥想活动和展望避难所，或与较大的人尺度空间形成空间对比。</p>
+<p><strong>地标</strong>：景观中的一个元素，因其与周围环境形成美学上的对比而引起人们的注意。地标作为景观中的参考点，帮助人们形成认知地图。</p>
+<p><strong>景观特征</strong>：可识别的元素模式，如植被类型、围护结构、材料和建筑形式等，将一个景观与另一个景观区分开来（Tudor and England, 2014）。</p>
+<p><strong>基质</strong>：对应于Norberg-Schulz所称的区域或领域。它是指一般无结构化的、大多为负空间的场所和路径所处的空间（Thwaites and Simkins，2007）。</p>
+<p><strong>纪念性尺度</strong>：当一个空间的规模超过了人的尺度，它就成为超人尺度或纪念碑式的空间。这样的空间是大型群体使用的空间，无论是建筑或自然界的空间，都能激发出景观的敬畏感。</p>
+<p><strong>负空间</strong>：与正面空间相比，这类空间的封闭性较差，具有较弱的结构性或围合感。</p>
+<p><strong>斑块</strong>：是指与周围环境相比，相对均匀的区域，通常以其植被覆盖物来区分。</p>
+<p><strong>场所</strong>：被赋予某种特殊价值或意义的空间。这种意义可以是一种集体的社会意义，它可以是长期的社区使用所产生的集体社会意义，也可以是一种个体的价值，它可以是由空间的使用强度或性格和审美特征的强弱所产生的个体价值。</p>
+<p><strong>积极空间</strong>：强烈的封闭性空间。这种围合性使其更容易被人们直观地感知和记忆。</p>
+<p><strong>屏障</strong>：在种植设计中，屏障是指高高的墙体，人不容易移动，也不容易看穿。</p>
+<p><strong>围栏</strong>：在种植设计中，围栏是一种高大的屏障，我们可以或许跨过去，但仅仅只能看到画面的一部分。</p>
+<p><strong>序列景观</strong>：序列景观的概念认为，景观的体验是由现有的景观和新出现的景观组成的序列。环境的设计应该是通过艺术地管理围合、观看者的位置和观看顺序，使人在其中移动的体验。</p>
+<p><strong>过渡</strong>：美学、功能和/或性格发生变化的地方。它们是序列空间的固有属性。</p>
+<p><strong>视觉渗透性</strong>：衡量通过垂直元素的视线的程度。</p>
+<p><strong>非对称平衡</strong>：一种平衡形式，即轴线或分界线两侧的元素偏离中心，物体本身的视觉重量不相等，但整个视觉阵列是平衡的。</p>
+<p><strong>平衡感</strong>：视觉阵列中的视觉权重或运动处于平衡状态，在观者心中产生的感觉。它有助于使人产生一种万物 “各就各位 “的感觉，增加观者对所看到的东西的偏好。</p>
+<p><strong>Biotic</strong>或<strong>生态演替</strong>：植物群落在同一区域内以可预测的顺序在一定时期内发展的植物群落序列。</p>
+<p><strong>块状种植</strong>：通常由单一品种或栽培品种组成的种植区域。它们的形状可以是直排的几何形或曲线形。在Lurie花园的草地上，Piet Oudolf使用了两种不同的多年生植物组成的块状种植。</p>
+<p><strong>堆积组合</strong>：这个术语是由格特鲁德-杰基尔（Gertrude Jekyll）首次使用这个术语来定义她种植多年生花坛的方式。堆积组合是多种同种植物，排列成狭长的块状。当斜着看堆积种植时，多株植物一个接一个地分层的效果使种植更自然，因为它给人一种植物相互交错的感觉。当堆积组合植物的色彩饱和度和色调相近时，边缘处会出现光学混搭的效果。</p>
+<p><strong>图-底关系</strong>：感知的一种属性。它是指人类对物体与对比鲜明的背景的感知倾向。任何设计元素都可以用来将人物与地面分开，但色彩的作用尤为明显。</p>
+<p><strong>Forb</strong>：任何非草类的多年生植物。</p>
+<p><strong>格式塔理论</strong>：20世纪20年代由一群德国心理学家提出的一种知觉理论。它提出了一个知觉的过程，在这个过程中，刺激是有序的，所以从个别部分中感知到一个结构化的整体。</p>
+<p><strong>并置</strong>：在设计中，并置一词是指将不同的元素组合在一起，使其本质特征得到更强烈的展现。</p>
+<p><strong>集中式种植</strong>：与现代主义相关的一种种植风格，在整个设计中，在整个设计的子区域中，用同类型的植物填充了大量的植物。它产生了一个简单的视觉阵列，但显然不是自然的，它通过重复和每种植物类型所占的相对比例来强调所选植物的特点。</p>
+<p><strong>基质种植</strong>：基质种植的一种种植方式，在单一植物或少数植物的统一组团中插入具有视觉趣味的主栽植物。基质种植创造了一种图-底的关系，使观者在心理上与景观产生共鸣。</p>
+<p><strong>归化</strong>：指的是能够在非原生地建立和繁殖的植物或动物。</p>
+<p><strong>自然化</strong>：是指自然界中的植物或动物。来源于自然或模仿自然的作品。</p>
+<p><strong>自然景观</strong>或<strong>环境</strong>：指自然景观或环境。基本上未被人类活动改变的景观。该词也有自然主义的意思，即模仿自然的意思。在整个本书中，我用这个词来形容自然化程度较高的景观，在本章中指的是受野生或粗犷的景观设计影响的景观，而不是受文化景观设计传统的影响。(另见 “野性”)。</p>
+<p><strong>新多年生植物运动</strong>：又称新多年生植物种植运动、荷兰波浪运动、新波浪运动，是Piet Oudolf的代表作。它使用一系列的多年生植物和草类植物来实现自然的外观，强调结构特征和四季的趣味性。</p>
+<p><strong>设计中的秩序</strong>：指设计中各元素之间的相互关系或某一特征的排列方式（《剑桥英语词典》，n.d.）。建立视觉秩序是让人们参与到我们的设计中来，使人们对设计产生兴趣或满足的前提条件。建立视觉的层次或平衡，重复和过渡的使用是建立设计秩序的一些方法。</p>
+<p><strong>感知</strong>：是指接受和解释感官刺激的过程。人类对景观的感知包括快速、无意识地理解场景或景物的内容，并评估该景观中行动的可能性（Hadavi等，2015）。</p>
+<p><strong>知觉过程</strong>：人们在面对视觉阵列或其他感官刺激时所采取的一系列步骤。他们在心理上组织和解释该刺激，并最终对该刺激作出反应。一个人对知觉的反应包括他们的情感反应或情绪体验。</p>
+<p><strong>荒地景观</strong>：荒地景观是指在被扰动的区域内定殖的植物。一个被人类扰乱后又被遗弃的景观，会被原生植物和非原生植物所充斥，是原生景观。荒地景观是指城市中的荒地、空地、公路边线和工业化后的场地。</p>
+<p><strong>形态</strong>：指物体的二维形态。例如，一棵直立的狭长的树木，就说它的形状是速生型或柱状。轮廓的线条描述植物的形状。</p>
+<p><strong>简单结构</strong>：简单结构可能是通过设计创造出来的，也可能是人在感知过程中在头脑中形成的。它们将信息、元素和刺激物组合成块或组，作为组织和简化所看到的东西的一种方式。</p>
+<p><strong>对称平衡</strong>：是指轴线或分界线两侧物体的大小、形状和视觉重量相等的一种平衡形式。</p>
+<p><strong>质感</strong>：视觉质感是指物体表面的光滑或粗糙的视觉印象。植物质感是由植物的叶子投下的阴影所产生的。</p>
+<p><strong>视觉画面阵列</strong>：指所见之物。可以是三维景观的二维视图，也可以是二维艺术海报的二维视图。</p>
+<p><strong>视觉构图</strong>：视觉排列不是杂乱无章的，它的元素被有目的的安排了特定的意图，如统一或和谐。</p>
+<p><strong>视觉重量</strong>：是指某些物体在视觉上给人的感觉比其他物体更重。紧凑的形式和较深的颜色会增加视觉重量。视觉重量在设计中被用来创造平衡、层次感和和谐。</p>
+<p><strong>野性</strong>（Wild）：指在自然条件下独立于人生长或生活的植物或动物，具有自然特征（《剑桥英语词典》，n.d.）。新多年生植物运动的实践者们试图创造出一种野性美学，以激起人们在自然景观或原始景观中所体验到的类似于人的体验反应。</p>
+<p><strong>堆积组合</strong>：这个术语最早是由格特鲁德-杰基尔（Gertrude Jekyll）用来定义她种植多年生花坛的方式。堆积组合是指多个同种植物，以狭长的块状排列。当使用堆积组合时，斜着看，多株植物一个接一个地分层的效果，使种植更加自然，因为它给人一种植物交错的感觉。当堆积组合的色彩饱和度和色调相近时，边缘处就会出现光学混合的效果。</p>
+<p><strong>同时对比法则</strong>：”当眼睛同时看到两种相邻的颜色时，它们在光学合成和颜色的强度上都会尽可能的不同。”（Michel Eugène Chevreul, 1987）这个原则涵盖了两种或两种以上的颜色在一起看会改变其外观的所有可能的方式。例如，深色与浅色相映成趣的颜色会显得更暗，反之亦然；冷色被冷色包围的颜色会显得更暖；两个颜色在一起看，就好像是两个颜色混合在一起的互补色；饱和色会在相邻的浅色中增加色调；互补色会互相强化。</p>
+<p><strong>光学混色</strong>：两种或两种以上的颜色相邻的颜色会出现混合，从而使实际上并不存在的颜色出现。例如，如果将红色和蓝色并排放置，在这两种颜色的交界处可能会出现紫色。这种效果有助于统一色彩。色调和色彩明度相近的颜色，特别是在调色和混色时，混合到一定程度后，颜色边缘会消失，花堆积的形态会变得模糊不清。</p>
+<p><strong>反转理论</strong>：是一种色彩偏好理论，该理论指出，当人们处于玩乐或兴奋状态或希望状态时，喜欢温暖的色彩，而当人们处于休息、低兴奋状态或希望状态时，则喜欢冷色或调色和调色。该理论进一步指出，这些高唤起状态或低唤起状态的偏好在一天的时间段内是不一样的，无论是高唤起状态还是低唤起状态，在任何时候都是偏好的，而不是中间状态。</p>
+
+    </div>
+
+    
+    
+    
+      
+
+        <div class="reward-container">
+  <div>坚持原创分享，您的支持将鼓励我继续创作!</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/config/wechatpay.jpg" alt="幷阿原sama 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/config/alipay.jpg" alt="幷阿原sama 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>幷阿原sama
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://dacisie36.github.io/posts/Plantdesign-Rearrangingterminology.html" title="植物景观设计丨理论术语翻译及重整理">http://dacisie36.github.io/posts/Plantdesign-Rearrangingterminology.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%BF%BB%E8%AF%91/" rel="tag"># 翻译</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/Reading-FindingBooks.html" rel="prev" title="去找到你想看的好书丨豆瓣技巧指南">
+      <i class="fa fa-chevron-left"></i> 去找到你想看的好书丨豆瓣技巧指南
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/posts/Machinelearning-commonwords.html" rel="next" title="机器学习丨常用术语解释">
+      机器学习丨常用术语解释 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80OTA5Mi8yNTU4Nw"></div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#一、理想的花园要满足的条件、概念"><span class="nav-number">1.</span> <span class="nav-text">一、理想的花园要满足的条件、概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二、植物种植理论（园艺）"><span class="nav-number">2.</span> <span class="nav-text">二、植物种植理论（园艺）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、景观设计理论（空间、视觉）"><span class="nav-number">3.</span> <span class="nav-text">三、景观设计理论（空间、视觉）</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="幷阿原sama"
+      src="/images/config/avatar.jpg">
+  <p class="site-author-name" itemprop="name">幷阿原sama</p>
+  <div class="site-description" itemprop="description">你寻它像寻梦一样，而你一找到他，就成了它的俘虏。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/dacisie36" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;dacisie36" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:928683294@qq.com" title="E-Mail → mailto:928683294@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=928683294&site=qq&menu=yes" title="QQ → http:&#x2F;&#x2F;wpa.qq.com&#x2F;msgrd?v&#x3D;3&amp;uin&#x3D;928683294&amp;site&#x3D;qq&amp;menu&#x3D;yes" rel="noopener" target="_blank"><i class="fa fa-fw fa-qq"></i>QQ</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/dacisie_36" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;dacisie_36" rel="noopener" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      友链
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://blog.ahao.moe/" title="http:&#x2F;&#x2F;blog.ahao.moe" rel="noopener" target="_blank">Ahaochan</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">幷阿原sama</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">30k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">1:01</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.1
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.7.2
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('div.pdf').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/pdfobject@2/pdfobject.min.js', () => {
+    document.querySelectorAll('div.pdf').forEach(element => {
+      PDFObject.embed(element.getAttribute('target'), element, {
+        pdfOpenParams: {
+          navpanes : 0,
+          toolbar  : 0,
+          statusbar: 0,
+          pagemode : 'thumbs',
+          view     : 'FitH'
+        },
+        PDFJS_URL: '/lib/pdf/web/viewer.html',
+        height   : element.getAttribute('height') || '500px'
+      });
+    });
+  }, window.PDFObject);
+}
+</script>
+
+
+
+
+  
+
+  
+
+  
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri == 'http://dacisie36.github.io/posts/Plantdesign-Rearrangingterminology.html',]
+      });
+      });
+  </script>
+
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"jsonPath":"https://cdn.jsdelivr.net/npm/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json"},"display":{"position":"left","width":150,"height":200,"hOffset":20,"vOffset":60},"mobile":{"show":false},"react":{"opacity":1},"dialog":{"hitokoto":true},"log":false});</script></body>
+</html>
