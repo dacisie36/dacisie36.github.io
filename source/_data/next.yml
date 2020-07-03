@@ -1187,7 +1187,7 @@ live2d:
   display:
     position: left
     width: 150
-    height: 150
+    height: 200
     hOffset: 20
     vOffset: 60
   mobile:
